@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title> Javascript functions</title>
+</head>
+
+<body>
+    <script>
+        function cube(num) {
+            var result = num ** 3;
+            console.log(result);
+        }
+        function add(num1, num2) {
+            var total = num1 + num2;
+            // console.log(result);
+            return total
+        }
+         var join = function (s1,s2){
+            return(s1+s2)
+         }
+         var a = "SAthya"
+         var hello = function(){
+            var a = "Shakul";
+            console.log("hello" + a);
+         }
+        cube(10);
+        cube(5);
+        var a=add(10, 4);
+        console.log(a)
+        alert(join ("Sathya", "Kamble"))
+        hello();
+        console.log(a);
+    </script>
+</body>
+
+</html>

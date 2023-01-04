@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// var age = 18
+// if (age >= '18')
+// {
+//     console.log('Eligible for voting')
+// }
+
+// to get the value and its a additions
+      var firstNumber=parseInt (prompt("Enter the first number:"))
+      var secondNumber=parseInt (prompt('Enter the second number:'))
+      result=firstNumber+secondNumber
+      alert(result)
+      console.log(result)
+
+    //   Subtractions
+      var firstNumber=parseInt(prompt('Enter numbers:'))
+      var secondNumber=parseInt(prompt('Enter numbers:'))
+      result=firstNumber-secondNumber
+      alert(result)
+      console.log(result)
+
+    //   multipications
+      var firstNumber=parseInt(prompt('Enter numbers:'))
+      var secondNumber=parseInt(prompt('Enter numbers:'))
+      result=firstNumber*secondNumber
+      console.log(result)
+
+      // finding Temperatures
+      let a = parseInt(prompt('Enter Value Temperature in fahrenite'))
+      a = (a-32) * 5;
+      console.log('Temperature in celsious :'+ (a/9))
+
+      //speed in KMph
+      var speedInKmph=parseInt(prompt('Enter the value in KMPH'));
+
+      mph=speedInKmph* .621
+      meterPerSec=speedInKmph* .277
+
+      document.write('Speed in miles per hour'+mph +'<br>'+'Speed in meter per second'+meterPerSec)
+      alert('Speed in Miles per hour'+ mph)      
+      alert('Speed in Meter per second'+meterPerSec)
+
+      console.log('Speed in Miles per hour'+ mph)      
+      consol.log('Speed in Meter per second'+meterPerSec)
+
+      //speed km
+      var A=parseInt(prompt('Enter value in km:'))
+      var Meters=A*1000
+      var cm=A*100000
+      var Mile=A*0.62
+      var foot=A*3280.1
+
+      document.write(A + " km In Meters ="+Meters+" Meters")
+      document.write("<br>")
+      document.write(A + " km In cm ="+cm+" cm")
+      document.write("<br>")
+      document.write(A + " km In Miles ="+Miles+" cm")
+      document.write("<br>")
+      document.write(A + " km In foot ="+foot+" cm")
+
+    //   out of 3 numbers we need to figure out which is the big number
+    var a=parseInt(prompt('Enter the first number'))
+    var b=parseInt(prompt('Enter the second number'))
+    var c=parseInt(prompt('Enter the third number'))
+
+    if(a >= b && a>= c) {
+        largest = a;
+    }
+else if (b >= a && b >= c){
+    largest = b;
+}
+else {
+    largest= c;
+}
+console.log('The largest number is ' + largest)
+    </script>
+</body>
+</html>
